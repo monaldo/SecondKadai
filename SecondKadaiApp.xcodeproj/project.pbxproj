@@ -12,6 +12,7 @@
 		691755271EE7E56400E1FD4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691755251EE7E56400E1FD4E /* Main.storyboard */; };
 		691755291EE7E56400E1FD4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691755281EE7E56400E1FD4E /* Assets.xcassets */; };
 		6917552C1EE7E56400E1FD4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6917552A1EE7E56400E1FD4E /* LaunchScreen.storyboard */; };
+		69608BEC1EE948F60058C2A9 /* SayHelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69608BEB1EE948F60058C2A9 /* SayHelloViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		691755281EE7E56400E1FD4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6917552B1EE7E56400E1FD4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6917552D1EE7E56400E1FD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69608BEB1EE948F60058C2A9 /* SayHelloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SayHelloViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				691755211EE7E56400E1FD4E /* AppDelegate.swift */,
 				691755231EE7E56400E1FD4E /* ViewController.swift */,
 				691755251EE7E56400E1FD4E /* Main.storyboard */,
+				69608BEB1EE948F60058C2A9 /* SayHelloViewController.swift */,
 				691755281EE7E56400E1FD4E /* Assets.xcassets */,
 				6917552A1EE7E56400E1FD4E /* LaunchScreen.storyboard */,
 				6917552D1EE7E56400E1FD4E /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				691755241EE7E56400E1FD4E /* ViewController.swift in Sources */,
 				691755221EE7E56400E1FD4E /* AppDelegate.swift in Sources */,
+				69608BEC1EE948F60058C2A9 /* SayHelloViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +308,7 @@
 				691755321EE7E56400E1FD4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
